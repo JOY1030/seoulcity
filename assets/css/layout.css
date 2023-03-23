@@ -1,0 +1,170 @@
+@import './font.css';
+@import './reset.css';
+@import './common.css';
+
+
+.header .logo a{
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background: url(../images/icon-set.png);
+    margin-top: 8px;
+}
+.inner1{
+    display: flex;
+    line-height: 48px;
+}
+.header .logo a{
+    width: 105px;
+    height: 27px;
+    background-position: -5px -165px;
+    display: block;
+
+}
+.inner1 .gnb-list{
+    display: flex;
+    gap: 20px;
+    margin-left: 30px;
+    padding-left: 40px;
+}
+
+.header .gnb-list .gnb-item{
+    font-weight: 700;
+    font-size: 16px;
+}
+.inner1 .gnb-item a:hover{
+    color: #2292e9;
+}
+.inner1 .util-area{
+    margin-left: auto;
+}
+.inner1 .util-area a{
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0 5px;
+    
+}
+.inner1 .util-area a:hover{
+    color: #2292e9;
+}
+
+.inner2{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.inner2 .slogun-area a{
+    display: block;
+    background: url(../images/slogan.png) no-repeat;
+    width: 133px;
+    height: 51px;
+    margin: 38px 0 30px;
+}
+
+.inner2 .search-area{
+    width: 520px;
+    border: 3px solid #2292e9;
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-left: 120px;
+    position: relative;
+    height: 42px;
+}
+.inner2 .search-area .input-txt{
+    width: calc(100% - 42px);
+    border: 0;
+    padding: 0 10px;
+    height: 38px;
+    line-height: 38px;
+
+}
+.inner2 .search-area .input-txt::placeholder{
+    color: #2292e9;
+    font-size: 14px;
+}
+.inner2 .search-area .btn-submit{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background: url(../images/icon-set.png) no-repeat -32px -97px;
+    vertical-align: top;
+}
+.inner2 .search-area .btn-keyboard{
+    background: url(../images/keyboard.png) no-repeat;
+    width: 29px;
+    height: 16px;
+    margin-left: 3px;
+    vertical-align: middle;
+    cursor: pointer;
+    position: absolute;
+    top: 12px;
+    right: 42px;
+}
+
+
+.inner2 .lang-area{
+    display: flex;
+    height: 21px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.inner2 .lang-area select{
+    width: 80px;
+    height: 21px;
+    border-color: #afcfea;
+    color: #1E6CB3;
+    font-size: 12px;
+    padding: 0 0 0 2px;
+    box-sizing: border-box;
+    appearance: none;
+    border-radius: 0;
+    background: url(../images/arrow.png) no-repeat 96% center;
+    background-size: 8px auto;
+}
+.inner2 .lang-area .btn-go{
+    width: 30px;
+    font-size: 11px;
+    color: #fff;
+    background-color: #1E6CB3;
+    border: 0;
+    height: 21px;
+}
+.inner2 .weather-area{
+    width: 260px;
+    height: 85px;
+    margin-top: 34px;
+    vertical-align: top;
+    position: absolute;
+    right: 0;
+}
+.inner2 .weather-area .info-wrap{
+    max-width: 242px;
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 5px;
+    
+    
+}
+.inner2 .weather-area img{
+    display: inline-block;
+}
+.inner2 .weather-area .info-wrap .temp{
+    font-size: 25px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+.inner2 .weather-area .info-wrap .txt1{
+    font-size: 16px;
+    letter-spacing: -0.1em;
+}
+.inner2 .weather-area .info-wrap .data-box{
+    margin-top: 7px;
+    font-size: 13px;
+    letter-spacing: -1px;
+    display: block;
+}
+
+.inner2 .weather-area .info-wrap .average{
+    color: #009944;
+
+}

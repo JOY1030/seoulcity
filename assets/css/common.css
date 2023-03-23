@@ -1,0 +1,22 @@
+.blind{
+    position: absolute;
+    margin: -1px;
+    width: 1px;height: 1px;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.sc-slide .btn-wrap .next,
+.header .logo a{
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background: url(../images/icon-set.png);
+}
+
+.common-inner{
+    width: 1152px;
+    margin: 0 auto;
+
+}
+.wrapper{
+    min-width: 1152px;
+}

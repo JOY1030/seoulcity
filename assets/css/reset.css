@@ -1,0 +1,31 @@
+*{margin:0;padding:0;font:inherit;color:inherit;}
+*, :after, :before {box-sizing:border-box;flex-shrink:0;}
+:root {-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;text-size-adjust:100%;cursor:default;line-height:1.5;overflow-wrap:break-word;-moz-tab-size:4;tab-size:4}
+html, body {height:100%; line-height: 1;}
+img, picture, video, canvas, svg {display: block;max-width:100%;}
+button {background:none;border:0;cursor:pointer;}
+ul{list-style: none;}
+a {text-decoration:none}
+table {border-collapse:collapse;border-spacing:0}
+fieldset{border: 0;}
+body {
+    -webkit-text-size-adjust:none;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Nanum Gothic';
+    font-weight: 400;
+    color: #222;
+    line-height: 1.35em;
+}
+
+input, select {
+    background: transparent;
+    border:1px solid #ddd;
+}
+
+button{cursor:pointer; border:0; background-color:transparent;}
+
+input { -webkit-appearance: none; -moz-appearance: none; appearance: none; border-radius: 0; }
+input:disabled { -webkit-appearance: none; -moz-appearance: none; appearance: none; color: #555555; -webkit-text-fill-color: #555555; opacity: 1; }
+
+/* input-placeholder */
+::-webkit-input-placeholder, ::-moz-placeholder, :-ms-input-placeholder, :-moz-placeholder {color: #767676; font-family: 'Nanum Gothic'; }
